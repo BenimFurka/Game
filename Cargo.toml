@@ -1,0 +1,15 @@
+[package]
+name = "Game"
+version = "0.1.0"
+edition = "2025"
+
+
+[dependencies]
+macroquad = "0.4"
+noise = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+game_core = { path = "./game_core" }
+lazy_static = "1.4"
+rayon = "1.10"
+sysinfo = "0.29"
